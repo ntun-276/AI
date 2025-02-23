@@ -1,10 +1,10 @@
 # Artificial Intelligence Project 🔬💡
-Heart Disease Prediction (Dự đoán bệnh tim) ❤️
+Heart Disease Prediction (Dự đoán bệnh tim) ❤️‍🩹
 
 ## 🔍 Description:
 In this project, they delve into a dataset encapsulating various health metrics from heart patients, including age, blood pressure, heart rate, and more. The goal is to develop a predictive model capable of accurately identifying individuals with heart disease. Given the grave implications of missing a positive diagnosis, our primary emphasis is on ensuring that the model identifies all potential patients, making recall for the positive class a crucial metric.
 
-## 🔑 Key Features:
+## 📝 Key Features:
 - `age` : Age of the patient in years.
 - `sex` : Gender of the patient (0 = male, 1 = female).
 - `cp` : Chest pain type (1: typical angina, 2: atypical angina, 3: non-anginal pain, 4: asymptomatic).
@@ -21,3 +21,11 @@ In this project, they delve into a dataset encapsulating various health metrics 
 - `target` : Heart disease status (0 = no disease, 1 = presence of disease).
 
 Data Source: https://www.kaggle.com/code/farzadnekouei/heart-disease-prediction
+
+## 🎯 Accuracy Results of Machine Learning Models:
+|  Model                   |  Accuracy  |
+|--------------------------|------------|
+|  Decision Tree           |    0.79    |
+|  Random Forest           |    0.84    |
+|  K-Nearest Neighbors     |    0.79    |
+|  Support Vector Machine  |    0.84    |
